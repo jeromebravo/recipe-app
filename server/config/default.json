@@ -1,0 +1,4 @@
+{
+    "mongoURI": "mongodb://localhost/recipe_app",
+    "jwtSecret": "thisismysecrettoken"
+}

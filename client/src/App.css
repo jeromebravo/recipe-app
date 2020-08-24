@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+body {
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    background-color: #F9F9F9;
+}
+
+.navbar-header, .navbar-link {
+    color: black;
+    text-decoration: none;
+}
+
+.navbar-right {
+    list-style: none;
+    display: flex;
+}
+
+.navbar-header {
+    font-size: 2rem;
+    letter-spacing: 3px;
+}
+
+.navbar-link {
+    margin: 0 30px;
+    font-size: 1.1rem;
+}
+
+.navbar-link:hover {
+    border-bottom: 1px solid black;
+}
+
+.container {
+    padding: 0 30px;
+}
+
+.landing-page {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 80vh;
+    margin: 0 auto;
+}
+
+.landing-page-header {
+    font-size: 3rem;
+    margin-bottom: 80px;
+}
+
+.landing-page-links {
+    display: flex;
+    justify-content: center;
+}
+
+.landing-page-links a {
+    text-decoration: none;
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+    background-color: blueviolet;
+    width: 150px;
+    padding: 25px 0;
+    margin: 0 10px;
+    border-radius: 10px;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+}
+
+.landing-page-links a:hover .link {
+    transform: scale(1.1);
+}
+
+.form {
+    background-color: #F9F9F9;
+    width: 60%;
+    margin: 14px auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.form-title {
+    font-size: 2.5rem;
+}
+
+.form-input {
+    border: none;
+    margin: 10px 0;
+    padding: 20px;
+    width: 50%;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    border: 1px solid black;
+}
+
+.form-input:focus {
+    outline: none;
+}
+
+.form-area {
+    border: none;
+    margin: 10px 0;
+    padding: 20px;
+    width: 50%;
+    height: 100px;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    border: 1px solid black;
+    font-family: 'Nunito', sans-serif;
+    resize: none;
+}
+
+.form-area:focus {
+    outline: none;
+}
+
+.form-submit {
+    margin: 26px 0;
+    padding: 17px 40px;
+    font-size: 1.1rem;
+    color: white;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.form-submit:hover {
+    transform: scale(1.1);
+}
+
+.form-submit:focus {
+    outline: none;
+}
+
+.alert-danger {
+    background-color: red;
+    color: white;
+    margin: 10px auto;
+    padding: 10px 20px;
+    width: 55%;
+}
+
+.alert-success {
+    background-color: #10B000;
+    color: white;
+    margin: 10px auto;
+    padding: 10px 20px;
+    width: 55%;
+}
+
+.recipe-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.recipe {
+    width: 50%;
+    margin: 15px 15px;
+    background-color: #F9F9F9;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 30px;
+}
+
+.recipe-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.profile-picture {
+    height: 80px;
+    width: 80px;
+    border-radius: 50px;
+}
+
+.comment-picture {
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+}
+
+.name {
+    margin: 0;
+}
+
+.name a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+.date {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+.recipe-header div {
+    margin-left: 15px;
+}
+
+.recipe-image {
+    margin: 0 auto;
+    display: block;
+    max-width: 100%;
+    max-height: 300px;
+}
+
+.hr {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.recipe-action {
+    display: flex;
+    justify-content: space-between;
+}
+
+.like-btn, .comment-btn, .delete-btn {
+    border: none;
+    padding: 10px 20px;
+    transition: all 0.3s ease-in-out;
+    font-size: 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.like-btn:focus, .comment-btn:focus, .delete-btn:focus {
+    outline: none;
+}
+
+.like-btn {
+    margin-right: 15px;
+    background-color: blueviolet;
+    color: white;
+}
+
+.comment-btn {
+    background-color: blueviolet;
+    color: white;
+    text-decoration: none;
+}
+
+.delete-btn {
+    background-color: red;
+    color: white;
+}
+
+.comment-form {
+    display: flex;
+    align-items: center;
+}
+
+.comment-input {
+    border: none;
+    margin: 10px 10px 10px 0;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid black;
+    flex-grow: 1;
+}
+
+.comment-input:focus {
+    outline: none;
+}
+
+.comment-submit {
+    margin: 26px 0;
+    padding: 14px 40px;
+    font-size: 1.1rem;
+    color: white;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.comment-submit:focus {
+    outline: none;
+}
+
+.comment-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.comment {
+    display: flex;
+    border: 1px solid black;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.comment-text {
+    margin: 0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    word-break: break-all;
+}
+
+.comment div {
+    margin-left: 15px;
+    width: 100%;
+}
+
+.delete-comment {
+    border: none;
+    padding: 8px 15px;
+    transition: all 0.3s ease-in-out;
+    font-size: 1rem;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.delete-comment:focus {
+    outline: none;
+}

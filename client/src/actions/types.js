@@ -1,0 +1,10 @@
+export const SET_CURRENT_USER = 'SET_CURRENT_USER';
+export const ADD_ALERT = 'ADD_ALERT';
+export const REMOVE_ALERT = 'REMOVE_ALERT';
+export const GET_RECIPES = 'GET_RECIPES';
+export const CLEAR_RECIPES = 'CLEAR_RECIPES';
+export const DELETE_RECIPE = 'DELETE_RECIPE';
+export const UPDATE_LIKES = 'UPDATE_LIKES';
+export const GET_RECIPE = 'GET_RECIPE';
+export const ADD_COMMENT = 'ADD_COMMENT';
+export const DELETE_COMMENT = 'DELETE_COMMENT';
